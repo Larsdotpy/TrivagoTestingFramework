@@ -1,0 +1,9 @@
+/Users/larsdebruijn/Documents/SeleniumCucumberBDDframework/src/test/java/Trivago/pageObjects/MainPageObjects.java
+/Users/larsdebruijn/Documents/SeleniumCucumberBDDframework/src/test/java/Trivago/stepDefinitions/Web/LoginPage.java
+/Users/larsdebruijn/Documents/SeleniumCucumberBDDframework/src/test/java/Trivago/pageObjects/LoginPageObjects.java
+/Users/larsdebruijn/Documents/SeleniumCucumberBDDframework/src/test/java/Trivago/constants/TestContext.java
+/Users/larsdebruijn/Documents/SeleniumCucumberBDDframework/src/test/java/Trivago/constants/Page.java
+/Users/larsdebruijn/Documents/SeleniumCucumberBDDframework/src/test/java/Trivago/stepDefinitions/Hooks.java
+/Users/larsdebruijn/Documents/SeleniumCucumberBDDframework/src/test/java/Trivago/stepDefinitions/Web/MainPage.java
+/Users/larsdebruijn/Documents/SeleniumCucumberBDDframework/src/test/java/Trivago/TestRunner.java
+/Users/larsdebruijn/Documents/SeleniumCucumberBDDframework/src/test/java/Trivago/FailedScenariosTestRunner.java

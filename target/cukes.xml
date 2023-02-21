@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="26.898" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="When a user lands on the main page" name="Cookie notification on main page" time="8.709">
+<system-out><![CDATA[
+Given User navigates to the main page.......................................passed
+Then Cookie pop up notification is shown....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="When a user enters an invalid email" name="Invalid email notification" time="8.469">
+<system-out><![CDATA[
+Given User navigates to the main page.......................................passed
+And User accepts cookie notification........................................passed
+And User clicks on login button.............................................passed
+When User enters an invalid email...........................................passed
+Then A notification is shown displaying "Voer je volledige e-mailadres in. Bijvoorbeeld: naam@voorbeeld.com" and has "#db3734" hex color value.passed
+]]></system-out>
+</testcase>
+<testcase classname="When the user navigates to the main page. The expected behavior is that the page shows all the available options" name="Valuta options" time="9.489">
+<system-out><![CDATA[
+Given User navigates to the main page.......................................passed
+And Cookie pop up notification is shown.....................................passed
+And User accepts cookie notification........................................passed
+When User clicks on valuta options..........................................passed
+Then All valuta options must consist of valutaList..........................passed
+]]></system-out>
+</testcase>
+</testsuite>
