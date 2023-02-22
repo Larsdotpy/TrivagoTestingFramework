@@ -26,7 +26,7 @@ public class Hooks {
 
     @Before("@Web")
     public void BeforeWebScenario(){
-        System.setProperty("webdriver.chrome.driver", "/Users/larsdebruijn/Documents/SeleniumCucumberBDDframework/src/test/java/Trivago/drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/larsdebruijn/Documents/TrivagoTestFramework/src/test/java/Trivago/drivers/chromedriver");
         testContext.driver = new ChromeDriver();
         testContext.driver.navigate().to(page.mainPage);
     }
